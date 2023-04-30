@@ -1,0 +1,10 @@
+   0 mkdir -p /opt/test/olga/
+   1 cat readme.txt >> /opt/test/olga/test.txt
+   2 ps -ef | head -2 /opt/test/olga/test.txt 
+   3 mkdir -p /tmp/test2/diol/
+   4 mv /opt/test/olga/test.txt /tmp/test2/diol/neutest.txt
+   5 vi /tmp/test2/diol/neutest.txt 
+   6 cat /tmp/test2/diol/neutest.txt 
+   7 history
+   8 export_file homework.txt
+   9 history > homework.txt
